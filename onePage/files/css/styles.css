@@ -1,0 +1,199 @@
+/* Global Declaration */
+.btn-primary {
+	padding: 10px 30px;
+	color: #C8102E;
+	border-color: #C8102E;
+	background: transparent;
+	font-size: 20px;
+}
+
+.btn-primary:hover {
+	background-color: #A40E25;
+	padding: 10px 35px;
+}
+
+.call-to-action {
+	font-size: 20px;
+	text-align: center;
+}
+
+.primaryColor {
+	color: #C8102E;
+}
+
+.inline {
+	display: inline;
+}
+
+.header-container {
+	width: 100%;
+	position: relative;
+}
+
+.header-image > img {
+	width: 100%;
+}
+
+.header-text {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	top: 15%;
+	bottom: 25%;
+}
+
+.headerTitle {
+	font-size: 52px;
+}
+
+.headerSubTitle {
+	font-size: 28px;
+	color: slategray;
+}
+
+.footer {
+	background-color: #1B1B1B;
+	padding: 20px 50px;
+	text-align: center;
+	color: #656565;
+}
+
+.footer-widget {
+	background-color: #252525;
+	padding: 100px 50px;
+}
+
+.content-container {
+	width: 100%;
+	height: 100%;
+	background: white;
+	z-index: 2;
+	padding: 100px 50px;
+}
+
+.content-container-primary {
+	background-color: #252525;
+	color: #8E8E8E;
+}
+
+.circle-icon {
+    background: transparent;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: center;
+	padding-top: 15px;
+	border: 3px solid #C8102E;
+	position: relative;
+}
+
+.highlight {
+	margin-bottom: 10px;
+}
+
+.highlight-icon {
+	text-align: center
+}
+
+/* Phone Format */
+.image-container {
+	width: 100%;
+	height: 550px;
+	background: #55e6c5;
+	z-index: 1;
+}
+
+#header_image {
+	background: url(../img/gvsu-pond.jpg) 59% 74%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#image_1 {
+	background: url(../img/CCI_fam.png) 55% 10%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#image_2 {
+	background: url(../img/rosy-mound-alt.jpg) 55% 15%;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 200px;
+}
+
+iframe {
+	width: 320px;
+	height: 180px;
+}
+
+
+/* Tablet Format */
+@media (min-width: 768px){
+	.image-container {
+		width: 100%;
+		height: 920px;
+		background: #55e6c5;
+		z-index: 1;
+	}
+	
+	#header_image {
+		background: url(../img/gvsu-pond.jpg) 51% 57%;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	#image_1 {
+		background: url(../img/CCI_fam.png) 55% 10%;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	#image_2 {
+		background: url(../img/rosy-mound-alt.jpg) 55% 30%;
+		background-attachment: fixed;
+		background-size: cover;
+		height: 550px;
+	}
+	
+	iframe {
+		width: 728px;
+		height: 409px;
+	}
+}
+
+/* Desktop Format */
+@media (min-width: 1024px){
+	.image-container {
+		width: 100%;
+		height: 1250px;
+		background: #55e6c5;
+		z-index: 1;
+	}
+	
+	#header_image {
+		background: url(../img/gvsu-pond.jpg) 51% 43%;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	#image_1 {
+		background: url(../img/CCI_fam.png) 55% 5%;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	#image_2 {
+		background: url(../img/rosy-mound-alt.jpg) 0% 5%;
+		background-attachment: fixed;
+		background-size: cover;
+		height: 750px;
+	}
+	
+	iframe {
+		width: 900px;
+		height: 506px;
+	}
+}
