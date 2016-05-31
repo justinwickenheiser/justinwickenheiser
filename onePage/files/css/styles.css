@@ -9,6 +9,7 @@
 
 .btn-primary:hover {
 	background-color: #A40E25;
+	border-color: #A40E25;
 	padding: 10px 35px;
 }
 
@@ -62,6 +63,7 @@
 
 .footer-widget {
 	background-color: #252525;
+	color: #8E8E8E;
 	padding: 100px 50px;
 }
 
@@ -95,6 +97,12 @@
 
 .highlight-icon {
 	text-align: center
+}
+
+span.socialMedia {
+	color: #8E8E8E;
+	font-size: 24px;
+	margin: 0px 10px;
 }
 
 /* Phone Format */
