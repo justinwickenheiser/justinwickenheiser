@@ -1,4 +1,17 @@
+/*
+ * Dark Blue:	#1A2E3D;
+ * Blue/Grey:	#485C6C;
+ * Light Blue:	#D1F5FF;
+ * Orange:		#E79C25;
+ * Seafoam Green: #00C6B3;
+ * Yellow/Tan: 	#FFF7D6;
+ */
+
 /* Global Declaration */
+body {
+	margin: 0;
+}
+
 .btn-primary {
 	padding: 10px 30px;
 	color: #C8102E;
@@ -57,31 +70,35 @@
 }
 
 .header-container {
-	width: 100%;
-	position: relative;
+	/*width: 100%;*/
+	/*position: relative;*/
 }
 
 .header-image > img {
 	width: 100%;
 }
 
-.headerSubTitle {
-	font-size: 28px !important;
-	color: slategray;
-}
-
 .headerTitle {
-	font-size: 52px !important;
+	color: #00C6B3; /* Seafoam green */
+}
+.headerSubTitle {
+	color: #FFF7D6; /* Yellow/tan */
 }
 
 .header-text {
-	position: absolute;
-	text-align: center;
+	text-align: right;
+	background-color: #1a2e3d; /* dark blue*/
+	/*position: absolute;
+	text-align: right;
 	width: 100%;
 	height: auto;
-	margin: auto;
-	top: 15%;
-	bottom: 25%;
+	margin: auto;*/
+	/*top: 15%;
+	bottom: 25%;*/
+}
+
+.headerTitle > h1, .headerSubTitle > h2 {
+	margin: 0;
 }
 
 .highlight {
@@ -110,10 +127,6 @@
 
 .inline {
 	display: inline;
-}
-
-.primaryColor {
-	color: #C8102E;
 }
 
 span.socialMedia {
