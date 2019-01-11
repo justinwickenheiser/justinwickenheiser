@@ -4,7 +4,11 @@ var DIST_DIR = path.resolve(__dirname, "./");
 
 var config = {
 	entry: {
-		'files/dist/header': './files/react/renders/header.js'
+		'files/dist/header': './files/react/renders/header.js',
+		'files/dist/footer': './files/react/renders/footer.js',
+		'files/dist/card': './files/react/renders/card.js',
+		'files/dist/callToAction': './files/react/renders/callToAction.js',
+		'files/dist/footerWidgets': './files/react/renders/footerWidgets.js'
 	},
 	output: {
 		path: DIST_DIR,
